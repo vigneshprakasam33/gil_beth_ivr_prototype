@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  guest_name: MyString
+  email: MyString
+  mobile: MyString
+  flag_verified: false
+  date_start: 2015-12-10 22:44:50
+  date_end: 2015-12-10 22:44:50
+  flag_enabled: false
+
+two:
+  guest_name: MyString
+  email: MyString
+  mobile: MyString
+  flag_verified: false
+  date_start: 2015-12-10 22:44:50
+  date_end: 2015-12-10 22:44:50
+  flag_enabled: false

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  scenario_code: 1
+  scenario_description: MyString
+  file_url: MyString
+
+two:
+  scenario_code: 1
+  scenario_description: MyString
+  file_url: MyString

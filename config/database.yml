@@ -1,0 +1,19 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: true
+  database: user_frosting_db
+  pool: 5
+  username: root
+  password:
+  host: localhost
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: true
+  database: user_frosting_db
+  pool: 5
+  username: cmanager_user
+  password: Billa123
+  host: localhost

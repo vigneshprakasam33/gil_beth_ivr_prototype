@@ -1,19 +1,21 @@
 development:
-  adapter: mysql2
+  adapter: <%=ENV['OPENSHIFT_DB_TYPE']%>
   encoding: utf8
-  reconnect: true
-  database: user_frosting_db
+  host: <%=ENV['OPENSHIFT_DB_HOST']%>
+  port: <%=ENV['OPENSHIFT_DB_PORT']%>
+  socket: <%=ENV['OPENSHIFT_DB_SOCKET']%>
+  database: <%=ENV['OPENSHIFT_APP_NAME']%>
+  username: <%=ENV['OPENSHIFT_DB_USERNAME']%>
+  password: <%=ENV['OPENSHIFT_DB_PASSWORD']%>
   pool: 5
-  username: root
-  password:
-  host: localhost
 
 production:
-  adapter: mysql2
+  adapter: <%=ENV['OPENSHIFT_DB_TYPE']%>
   encoding: utf8
-  reconnect: true
-  database: user_frosting_db
+  host: <%=ENV['OPENSHIFT_DB_HOST']%>
+  port: <%=ENV['OPENSHIFT_DB_PORT']%>
+  socket: <%=ENV['OPENSHIFT_DB_SOCKET']%>
+  database: <%=ENV['OPENSHIFT_APP_NAME']%>
+  username: <%=ENV['OPENSHIFT_DB_USERNAME']%>
+  password: <%=ENV['OPENSHIFT_DB_PASSWORD']%>
   pool: 5
-  username: cmanager_user
-  password: Billa123
-  host: localhost
